@@ -20,6 +20,7 @@ The script uses multithread and checks already existing images!
 ### Clone git repository
 ```
  git clone https://github.com/Kaszabi/Python-Image-Editor-Script.git [Folder Name]
+ cd [Folder Name]
 ``` 
 ### Converter Usage
 ```python
