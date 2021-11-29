@@ -51,9 +51,11 @@ The script uses multithread and checks already existing images!
                           you can use the same transformations multiple times too, the script will do those tasks multiple times
  
  # Examples
- python app/transform.py -d <Path/Directory> -r 180 -f -W 1920 -a # This will rotate the images by 180 degrees to the right, then flips them horizontally, and then                                                                       resizing them to the width 1920px while keeping all images own aspect ratio
+ python app/transform.py -d <Path/Directory> -r 180 -f -W 1920 -a # This will rotate the images by 180 degrees to the right, then flips them horizontally, and then
+                                                                    resizing them to the width 1920px while keeping all images own aspect ratio
 
- python app/transform.py -d <Path/Directory> -l 400 -f -o rrrrrrrrrff # This will rotate the images 9 times to the left by 40 degrees and then flips them horizontally                                                                         2 times
+ python app/transform.py -d <Path/Directory> -l 400 -f -o rrrrrrrrrff # This will rotate the images 9 times to the left by 40 degrees and then flips them horizontally
+                                                                        2 times
 ```
 ## ScreenShots
 <img src='sample.png' alt='Python Image Converter'>
