@@ -62,5 +62,3 @@ The script uses multithread and checks already existing images!
                                                                       # left by 40 degrees and then flips them horizontally
                                                                       # 2 times
 ```
-## ScreenShots
-<img src='sample.png' alt='Python Image Converter'>
