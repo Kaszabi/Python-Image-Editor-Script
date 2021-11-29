@@ -27,9 +27,9 @@ The script uses multithread and checks already existing images!
  python app/convert.py <options>
  
  # Options listed below
- -d/--dest <folder destination> - the images in this folder will be converted and placed in the folder ./converted
- -r/--rext <raw extension> - only convert these image files('all', '.tif', '.tiff', '.bmp', '.jpg', '.png', '.jpeg')
- -t/--text <target extension> - convert to this extension('.tif', '.tiff', '.bmp', '.jpg', '.png', '.jpeg')
+ -d/--dest <folder destination> - # the images in this folder will be converted and placed in the folder ./converted
+ -r/--rext <raw extension> - # only convert these image files('all', '.tif', '.tiff', '.bmp', '.jpg', '.png', '.jpeg')
+ -t/--text <target extension> - # convert to this extension('.tif', '.tiff', '.bmp', '.jpg', '.png', '.jpeg')
  
  # Example
  python app/convert.py -d <Path/Directory> -r 'all' -t '.png' # This will convert all image files to .png 
