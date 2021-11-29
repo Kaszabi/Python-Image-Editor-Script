@@ -63,9 +63,9 @@ def not_exists(fileName, ext):
 def main():
     parser = optparse.OptionParser("Use: python " + sys.argv[0] + " --d <raw directory> --rext <rawExtension(default='all')> --text <targetExtension(default='.jpg')>")
 
-    parser.add_option('--d', dest='nname', type='string')
-    parser.add_option('--rext', dest='rawextension', type='choice', default="all", choices = ['all', '.tif', '.tiff', '.bmp', '.jpg', '.png', '.jpeg'])
-    parser.add_option('--text', dest='targetextension', type='choice', default=".jpg", choices = ['.tif', '.tiff', '.bmp', '.jpg', '.png', '.jpeg'])
+    parser.add_option('-d', '--dest', dest='nname', type='string')
+    parser.add_option('-r', '--rext', dest='rawextension', type='choice', default="all", choices = ['all', '.tif', '.tiff', '.bmp', '.jpg', '.png', '.jpeg'])
+    parser.add_option('-t', '--text', dest='targetextension', type='choice', default=".jpg", choices = ['.tif', '.tiff', '.bmp', '.jpg', '.png', '.jpeg'])
 
     (options, args) = parser.parse_args()
     if (options.nname == None):
